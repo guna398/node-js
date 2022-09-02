@@ -1,0 +1,24 @@
+<html>
+    <head>
+    <script>
+var unit=parseInt(prompt("Enter the Unit"));
+if(unit>=0)
+{
+if(unit<=100)
+{
+doctument.write("Free")
+}
+else if(unit>100&&unit<=500)
+{
+document.write((unit-100*3+25))
+}
+else{
+pa=1200;
+document.write((unit-500)*3+pa+50)
+}
+}
+</script>
+       
+    </head>
+
+</html>
