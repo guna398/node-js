@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            let input1=parseInt(prompt("Enter the Value A : "));
+            let input2=parseInt(prompt("Enter the Value B : "));
+                if (input1 == input2){
+                    document.write("Both Values are same");
+                }
+                else if (input1>input2) {
+                    document.write(input1 + "Is Bigger value than" +  input2);
+                }
+                else {
+                    document.write(input1 + "Is Lesser Value than" +  input2 ); 
+                }
+
+                
+                function calculations(input1, input2){
+                    document.write("<br/> <br/> Mathematical Operations<br/> ");
+                    document.write("<br/> Addition result of "+input1+ " and "+ input2+ " is "+ (input1 + input2));
+                    document.write("<br/> Subraction result of "+input1+ " and "+ input2+ " is "+ (input1 - input2));
+                    document.write("<br/> Multiplication result of "+input1+ " and "+ input2+ " is "+ (input1 * input2));
+                    document.write("<br/> Division result of "+input1+ " and "+ input2+ " is "+ (input1 / input2));
+                }
+                function operatorPrecedence(input1, input2){
+                    document.write("<br/><br/> Operator Precedence <br/>");
+                    let input3 = 50;
+                    document.write("input1 = "+input1+ "<br/> input2 = "+input2+"<br/> input3 = "+input3);
+                    document.write("<br/> value for expression input1+input2*input2 is : "+(input1+input2*input2));
+                    document.write("<br/> value for expression input1+input2*(input2*input3) is : "+(input1+input2*(input2*input3)));
+                    document.write("<br/> value for expression input1-input2+input3*input1 is : "+(input1-input2+input3*input1));
+                }
+
+                function oddoreven(input1 , input2){
+                    document.write("<br/> <br/><br/> Finding Odd or Even <br/>");
+                    if(input1 %2 === 0){
+                        document.write(input1+ " is Even <br/>");
+                    }
+                    else{
+                        document.write("\n"+input1 + " is Odd <br/>");
+                    }
+                    if(input2 %2 === 0){
+                        document.write(input2+ " is Even <br/><br/>");
+                    }
+                    else{
+                        document.write(input2 + " is Odd <br/><br/>");
+                    }
+                }
+
+                calculations(input1,input2);
+                operatorPrecedence(input1,input2);
+                oddoreven(input1,input2);
+         </script>
+    </body>
+</html>
