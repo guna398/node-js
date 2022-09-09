@@ -11,4 +11,4 @@ console.log(s.charCodeAt(3));                       // ASCII value (american sta
 
 //Str 
 // string pre-def function
-//let var objname= new string("")---> Syntax
+//let objname= new string("")---> Syntax
