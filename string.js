@@ -10,3 +10,5 @@ console.log(s.toUpperCase(""));                     //upper case str
 console.log(s.charCodeAt(3));                       // ASCII value (american standard code for information intercharge)
 
 //Str 
+// string pre-def function
+//let var objname= new string("")---> Syntax
