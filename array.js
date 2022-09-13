@@ -1,3 +1,7 @@
+
+// Array pre-def function
+// Syntax : let objname=[a1,a2...];
+
 let a = ["Guna","Bachelor of Engineering","guna@gmail.com",'9843250625'];
 let b = ["Chennai","Indium"];
 console.log(a.sort());
