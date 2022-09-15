@@ -62,10 +62,10 @@ console.log(mymovie.name + " " + mymovie.year);
 
 console.log("JavaScript Symbol()");//It represents a unique "hidden" identifier that no other code can accidentally access
 const person = {
-  firstName: "John",
-  lastName: "Doe",
-  age: 50,
-  eyeColor: "blue"
+  firstName: "Guna",
+  lastName: "Palani",
+  age: 23,
+  eyeColor: "brown"
 };
 
 let id = Symbol('id');
